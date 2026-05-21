@@ -20,6 +20,7 @@ I work on backend integrations, deployment packaging, and validation-heavy chang
 
 - [AgentOrchestration boolean env overrides](https://github.com/orchestration-agent/AgentOrchestration/pull/973): parse exact `true` / `false` overrides as booleans while leaving other strings alone
 - [AgentOrchestration event decorator validation](https://github.com/orchestration-agent/AgentOrchestration/pull/1064): reject blank or non-string event names before metadata is written
+- [AgentOrchestration active timer count](https://github.com/orchestration-agent/AgentOrchestration/pull/1737): expose active metrics timers as a count without leaking timer names
 - [Haven_Contracts bounty amount validation](https://github.com/HavenOnStellar/Haven_Contracts/pull/24): reject stolen-report bounty amounts below the minimum
 - [Yuzu webhook internal-host guard](https://github.com/Tr3kkR/Yuzu/pull/1123): block local and private webhook hosts, including IPv4-mapped IPv6 forms
 - [SecID subtype inventory](https://github.com/CloudSecurityAlliance/SecID/pull/70): complete a methodology subtype gap and add warn-only completeness checking
