@@ -16,6 +16,13 @@ I work on backend integrations, deployment packaging, and validation-heavy chang
 - [robin-base-tools Privy auth work](https://github.com/lbbcym/robin-base-tools/pull/3): server-side Privy authentication with replay protection
 - [AMPTemplates code-server template](https://github.com/CubeCoders/AMPTemplates/pull/1848): new code-server template packaged as a focused contribution
 
+## Recent small fixes
+
+- [AgentOrchestration boolean env overrides](https://github.com/orchestration-agent/AgentOrchestration/pull/973): parse exact `true` / `false` overrides as booleans while leaving other strings alone
+- [AgentOrchestration event decorator validation](https://github.com/orchestration-agent/AgentOrchestration/pull/1064): reject blank or non-string event names before metadata is written
+- [Haven_Contracts bounty amount validation](https://github.com/HavenOnStellar/Haven_Contracts/pull/24): reject stolen-report bounty amounts below the minimum
+- [Yuzu webhook internal-host guard](https://github.com/Tr3kkR/Yuzu/pull/1123): block local and private webhook hosts, including IPv4-mapped IPv6 forms
+
 More context lives in [engineering-portfolio](https://github.com/juzigu40-ui/engineering-portfolio).
 
 ## How I work
@@ -29,3 +36,15 @@ More context lives in [engineering-portfolio](https://github.com/juzigu40-ui/eng
 - Hosted deployment proof and runtime verification
 - Backend and auth integration work
 - Infra-adjacent tooling for deployment and review workflows
+
+## Small scoped help
+
+I can also help clean up PR descriptions, issue reports, security report drafts, README first screens, and small product pages.
+
+Typical small task: USD 50 / CNY 300 after the scope is clear.
+
+Boundaries:
+
+- No fake validation notes or fake user/customer claims
+- No unauthorized security testing
+- No merge, payout, ranking, or sales promises
