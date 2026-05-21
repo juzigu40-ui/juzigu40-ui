@@ -27,6 +27,7 @@ I work on backend integrations, deployment packaging, and validation-heavy chang
 - [Omi Open-Meteo integration app](https://github.com/BasedHardware/omi/pull/7442): no-auth weather, forecast, and air-quality chat tools backed by public Open-Meteo APIs
 - [Omi Frankfurter currency app](https://github.com/BasedHardware/omi/pull/7443): no-auth currency conversion and reference-rate chat tools backed by the public Frankfurter API
 - [Omi Public Holidays app](https://github.com/BasedHardware/omi/pull/7445): no-auth public holiday, upcoming holiday, and long-weekend chat tools backed by Nager.Date
+- [Omi Open Food Facts app](https://github.com/BasedHardware/omi/pull/7448): no-auth food search, barcode lookup, product comparison, and allergen checks backed by Open Food Facts
 
 More context lives in [engineering-portfolio](https://github.com/juzigu40-ui/engineering-portfolio).
 
