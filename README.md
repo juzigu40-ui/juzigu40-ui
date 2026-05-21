@@ -22,6 +22,7 @@ I work on backend integrations, deployment packaging, and validation-heavy chang
 - [AgentOrchestration event decorator validation](https://github.com/orchestration-agent/AgentOrchestration/pull/1064): reject blank or non-string event names before metadata is written
 - [Haven_Contracts bounty amount validation](https://github.com/HavenOnStellar/Haven_Contracts/pull/24): reject stolen-report bounty amounts below the minimum
 - [Yuzu webhook internal-host guard](https://github.com/Tr3kkR/Yuzu/pull/1123): block local and private webhook hosts, including IPv4-mapped IPv6 forms
+- [SecID subtype inventory](https://github.com/CloudSecurityAlliance/SecID/pull/70): complete a methodology subtype gap and add warn-only completeness checking
 - [Omi Open-Meteo integration app](https://github.com/BasedHardware/omi/pull/7442): no-auth weather, forecast, and air-quality chat tools backed by public Open-Meteo APIs
 - [Omi Frankfurter currency app](https://github.com/BasedHardware/omi/pull/7443): no-auth currency conversion and reference-rate chat tools backed by the public Frankfurter API
 - [Omi Public Holidays app](https://github.com/BasedHardware/omi/pull/7445): no-auth public holiday, upcoming holiday, and long-weekend chat tools backed by Nager.Date
