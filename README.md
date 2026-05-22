@@ -25,12 +25,16 @@ I work on backend integrations, deployment packaging, and validation-heavy chang
 - [Yuzu webhook internal-host guard](https://github.com/Tr3kkR/Yuzu/pull/1123): block local and private webhook hosts, including IPv4-mapped IPv6 forms
 - [SecID subtype inventory](https://github.com/CloudSecurityAlliance/SecID/pull/70): complete a methodology subtype gap and add warn-only completeness checking
 - [Rustchain setup miner CLI fix](https://github.com/Scottcjn/Rustchain/pull/6064): make `setup_miner.py --help` and unknown args exit before setup work
+- [handsdiff/hub ghost counterparty timeout](https://github.com/handsdiff/hub/pull/22): add a default 14-day deadline, backfill old accepted offers, and cover the 48-hour claimant self-resolve path
+- [Fetch.ai example env templates](https://github.com/fetchai/innovation-lab-examples/pull/122): add first-run `.env.example` files and remove a tracked runtime env file
+- [Fhenix CoFHE env template](https://github.com/FhenixProtocol/cofhe-hardhat-starter/pull/13): add the missing `.env.example` referenced by the starter README
 - [Omi Open-Meteo integration app](https://github.com/BasedHardware/omi/pull/7442): no-auth weather, forecast, and air-quality chat tools backed by public Open-Meteo APIs
 - [Omi Frankfurter currency app](https://github.com/BasedHardware/omi/pull/7443): no-auth currency conversion and reference-rate chat tools backed by the public Frankfurter API
 - [Omi Public Holidays app](https://github.com/BasedHardware/omi/pull/7445): no-auth public holiday, upcoming holiday, and long-weekend chat tools backed by Nager.Date
 - [Omi Open Food Facts app](https://github.com/BasedHardware/omi/pull/7448): no-auth food search, barcode lookup, product comparison, and allergen checks backed by Open Food Facts
 
 More context lives in [engineering-portfolio](https://github.com/juzigu40-ui/engineering-portfolio).
+Public proof and small tools live at [offer-kit](https://juzigu40-ui.github.io/offer-kit/proof/).
 
 ## How I work
 
